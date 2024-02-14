@@ -1,5 +1,5 @@
 {% set name = "coastal-cascade" %}
-{% set version = "0.1.1" %}
+{% set version = "1.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/UNC-CECL/cascade/archive/v{{ version }}.tar.gz
-  sha256: b2f69239d92b4ae19bf0d36dba143c2b520cf1a9cde0d9fc8e75625b7e3ebae0
+  sha256: c87e0a5834a9291be5958b803c1475c9a8a70fa0e3ee6f29d4d3e9f9c22811ff
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
