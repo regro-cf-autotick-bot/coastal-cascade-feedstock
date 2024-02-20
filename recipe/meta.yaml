@@ -24,8 +24,11 @@ requirements:
     - barrier3d
     - imageio
     - joblib
+    - matplotlib
     - numpy
+    - pandas
     - pyyaml
+    - scipy
 
 test:
   imports:
