@@ -24,7 +24,7 @@ requirements:
     - barrier3d
     - imageio
     - joblib
-    - matplotlib
+    - matplotlib-base
     - numpy
     - pandas
     - pyyaml
